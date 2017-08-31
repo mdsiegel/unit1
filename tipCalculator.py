@@ -4,4 +4,5 @@
 
 Price = int(input('Price of meal '))
 Tip = int(input('Percent to tip? '))
-print('You should tip', Price * (Tip/100))
+print('You should tip', Price * (Tip/100), 'dollars')
+
