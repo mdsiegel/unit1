@@ -3,4 +3,4 @@ print('  x     x')
 print('((  o o  ))')
 print('  |  V  |')
 print('  | === |')
-print('
+print('   -----')
