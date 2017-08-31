@@ -1,4 +1,6 @@
-print('xxxxx')
-print('x     x')
+print('   xxxxx')
+print('  x     x')
 print('((  o o  ))')
-print('')
+print('  |  V  |')
+print('  | === |')
+print('
