@@ -3,4 +3,4 @@
 #km2miles - How to work with numbers
 
 Km = int(input('What is your distance in Kilometers? '))
-print(Km * 0.621371, ' is your distance in miles.)
+print(round(Km*0.621371,3), ' is your distance in miles.')
