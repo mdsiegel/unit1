@@ -2,7 +2,8 @@
 #9/1/17
 #stringAnalysis.py - Analysing a string
 
-sentence = input('Enter a sentence: ')
+sentence1 = input('Enter a sentence: ')
+sentence = sentence1.lower()
 words = len(sentence.split())
 spaces = sentence.count(' ')
 characterCount = len(sentence)
