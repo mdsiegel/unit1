@@ -1,1 +1,6 @@
+#Matthew Siegel
+#9/31/17
+#PathagoreanDemo.py - finding the hypotenuse of a right triangle
 
+a = float(input('Enter leg 1: '))
+b = float(input('Enter leg 2: ')
