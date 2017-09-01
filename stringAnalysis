@@ -1,1 +1,8 @@
+#Matthew Siegel
+#9/1/17
+#stringAnalysis.py - Analysing a string
 
+sentence = input('Enter a sentence: ')
+spaces = sentence.count(' ')
+words = (len(sentence))/spaces
+print(words)
