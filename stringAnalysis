@@ -3,6 +3,14 @@
 #stringAnalysis.py - Analysing a string
 
 sentence = input('Enter a sentence: ')
+words = len(sentence.split())
 spaces = sentence.count(' ')
-words = (len(sentence))/spaces
-print(words)
+characterCount = len(sentence)
+letterCount = characterCount - spaces
+print('There are',words, 'words and', characterCount, 'characters and',letterCount, 'letters.' )
+
+letterSearch = input('Enter a character to search for:')
+print('Your sentence has', sentence.count(letterSearch), 'cases of the letter, letterSearch')
+
+letterSearch = input('Enter a character to search for:')
+print('Your sentence has', sentence.count(letterSearch), 'cases of the letter, letterSearch')
