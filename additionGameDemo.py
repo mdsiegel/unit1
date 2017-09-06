@@ -3,6 +3,9 @@
 #additionGameDemo.py - our first "game"
 
 from random import randint
+numberOne = randint(1,10)
+numberTwo = randint(1,10)
+answer = int(input(str(numberOne)+'+'+ str(numberTwo)+'?'+' ' ))
 
-answer = int(input(str(randint(1,10))+'+'+ str(randint(1,10))))
+print(answer == numberOne + numberTwo)
 
