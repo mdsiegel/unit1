@@ -4,5 +4,5 @@
 
 from random import randint
 
-answer = int(input(str(randint(1,10))+'+'+ randint(1,10)))
+answer = int(input(str(randint(1,10))+'+'+ str(randint(1,10))))
 
