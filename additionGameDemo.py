@@ -4,4 +4,4 @@
 
 from random import randint
 
-print(
+print(randint(1,10))
