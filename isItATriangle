@@ -1,1 +1,11 @@
+#Matthew Siegel
+#9/7/17
+#isItATriangle.py - Finding if a list of sides are a triangle
+
+a = float(input('Side A: '))
+b = float(input('Side B: '))
+c = float(input('Side C: '))
+
+maximum = max(a,b,c)
+minimum = min(a,b,c)
 
