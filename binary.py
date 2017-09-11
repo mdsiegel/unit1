@@ -16,6 +16,5 @@ eight = (number//10000000)%10
 totalNumber = (one*2**0)+(two*2**1)+(three*2**2)+(four*2**3)+(five*2**4)+(six*2**5)+(seven*2**6)+(eight*2**7)
 print(totalNumber)
 
-totalTwos = totalNumber//2
-onesPlace = totalNumber%2
+
 
